@@ -1,0 +1,24 @@
+{
+  "name": "projetonodefuncionarios",
+  "version": "1.0.0",
+  "description": "primeiro projeto node",
+  "main": "funcionarios.js",
+  "scripts": {
+    "start": "nodemon",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "primeiro",
+    "projeto",
+    "node",
+    "curso",
+    "cod3r",
+    "udemy"
+  ],
+  "author": "marcos",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.19.2"
+  }
+}

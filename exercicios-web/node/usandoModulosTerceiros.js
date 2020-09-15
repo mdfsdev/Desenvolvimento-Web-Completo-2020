@@ -1,0 +1,4 @@
+const _ = require('lodash') // _ é uma referencia para lodash. nao estamos utilizando o caminho relativo. desta forma ele vai procurar o lodash dentro de node_modules e na pasta espera encontrar um arquivo index.js
+setInterval(() => console.log(_.random(1, 200)), 2000) // _.random funcao random do lodash. tempo em milisegundos
+                                                       // instalamos duas dependencias de terceiros: lodash e nodemon
+                                                       // executando com o nodemon vc pode alterar o código em tempo de execucao, salvar e o codigo continuara a ser executado alteradora
